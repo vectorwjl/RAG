@@ -1,0 +1,16 @@
+data_dir: data/papers
+chroma_dir: db/chroma
+collection_name: papers
+
+embedding_model: BAAI/bge-m3
+embedding_device: cuda
+
+chunk_size: 1200
+chunk_overlap: 180
+
+deepseek_base_url: https://api.deepseek.com
+deepseek_model: deepseek-chat
+temperature: 0.2
+
+top_k: 6
+score_threshold: 0.25
